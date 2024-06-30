@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: voting-result-api
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/mydatabase}
+    username: ${DB_USERNAME:myuser}
+    password: ${DB_PASSWORD:secret}
+
+server:
+  port: 8082
